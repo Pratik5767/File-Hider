@@ -12,7 +12,7 @@ public class SentOTPService {
         String to = email;
 
         // Sender's email ID need to be mentioned
-        String from = "internetaxis797@gmail.com";
+        String from = "Enter the email throught otp is to be sent";
 
         // Assuming your sending email from gmail smtp
         String host = "smtp.gmail.com";
