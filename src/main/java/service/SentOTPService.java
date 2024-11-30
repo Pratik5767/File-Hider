@@ -29,7 +29,7 @@ public class SentOTPService {
         // Get the session object and pass username and password
         Session session = Session.getInstance(properties, new javax.mail.Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(from, "aesbuqdgrdsaxljo");
+                return new PasswordAuthentication(from, "App Password");
             }
         });
 
